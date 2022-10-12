@@ -1,1 +1,0 @@
-docker create container -ti alpine:3.12
