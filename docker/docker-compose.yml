@@ -6,7 +6,7 @@ services:
     ports:
       - 3001:3001
   todofront:
-    build: ./todo-app/front-end # Especificamos o contexto, ou seja, a pasta onde está o Dockerfile.
+    build: ./todo-app/front-end #  Especificamos o contexto, ou seja, a pasta onde está o Dockerfile.
     restart: always
     ports:
       - 3000:3000 # primeiro parâmetro é sempre a porta do computador local e o segundo parâmetro é a porta exposta no container.
