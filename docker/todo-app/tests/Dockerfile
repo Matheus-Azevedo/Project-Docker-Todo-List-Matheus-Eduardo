@@ -3,4 +3,4 @@ RUN mkdir -p /app
 WORKDIR /app
 ADD node_modules.tar.gz ./
 COPY . .
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["npm", "test"]
