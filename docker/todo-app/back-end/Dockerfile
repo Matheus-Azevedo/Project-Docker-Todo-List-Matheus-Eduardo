@@ -1,5 +1,7 @@
 FROM node:14-alpine
-ENTRYPOINT ["npm", "start"]
-ADD node_modules.tar.gz .
+RUN mkdir -p /app 
+WORKDIR /app
+ADD node_modules.tar.gz ./
 COPY . .
 EXPOSE 3001
+ENTRYPOINT ["npm", "start"]
