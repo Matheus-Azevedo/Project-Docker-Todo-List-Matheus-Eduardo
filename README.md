@@ -3,7 +3,28 @@
 
 Este projeto foi desenvolvido por mim e faz parte do acervo de atividades executadas na escola de programação Trybe. A formação ao longo de 1 ano em Desenvolvimento Web desta instituição  conta com mais de 1.500 horas de aulas e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais. Tudo voltado totalmente para o mercado de trabalho com intuito de entregar um profissional adequado para a realidade atual. 
 
-Neste desafio fomos de docker e docker compose. É simplesmente fantástico o quanto docker é poderoso para prover tudo que é necessário para uma aplicação independente do sistema que ela esteja funcionando. Aqui testamos uma variedade de comandos para manipulação da ferramenta docker.
+## Sobre o projeto
 
+Este projeto tem como objetivo praticar os comandos básicos do Docker, bem como configurar arquivos Dockerfile e docker-compose.
 
-![1665544773914](https://user-images.githubusercontent.com/40497869/210866335-87b54548-2332-4d7c-a24e-d80bcf5de4be.jpeg)
+## Requisitos
+
+-   Docker instalado na máquina
+
+## Como usar
+
+Clone este repositório e acesse a pasta do projeto:
+
+`git clone git@github.com:Matheus-Azevedo/Project-Docker-Todo-List-Matheus-Eduardo.git` 
+
+### Dockerfile
+
+Para construir a imagem, execute o seguinte comando na pasta do projeto:
+
+`docker build -t imagem-exemplo .` 
+
+### Docker-compose
+
+Para rodar a aplicação, execute o seguinte comando na pasta do projeto:
+
+`docker-compose up` 
